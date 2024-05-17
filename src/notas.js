@@ -30,7 +30,7 @@ function notafinal() {
   }
 }
 function reset() {
-  resultado.textContent = ""; // Limpiar el contenido del mensaje
+  resultado.textContent = ""; // limpia el mensaje
 }
 
 boton.addEventListener("click", notafinal);
