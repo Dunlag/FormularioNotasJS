@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const html = document.documentElement;
     const currentTheme = localStorage.getItem('theme');
 
-    // Aplica el tema guardado en localStorage
+    // Aplica el tema indicado en la clase
     if (currentTheme === 'dark') {
         html.classList.add('dark');
         themeToggleBtn.textContent = 'Modo Claro';
