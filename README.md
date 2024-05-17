@@ -27,6 +27,7 @@ Puedes personalizar el formulario y los estilos CSS según tus necesidades. Con 
 
 - HTML5
 - Tailwind CSS
+- JavaScript
 
 ## Dependencias
 
