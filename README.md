@@ -38,7 +38,7 @@ npm install tailwindcss
 Luego, para compilar los estilos de Tailwind CSS, ejecuta:
 
 ```bash
-npx tailwindcss build estilos.css -o output.css
+npx tailwindcss build input.css -o output.css
 ```
 Licencia
 Este proyecto se publica bajo la licencia MIT.
