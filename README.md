@@ -22,14 +22,15 @@ Tailwind CSS
 Dependencias
 Este proyecto utiliza Tailwind CSS. Para instalar las dependencias necesarias, ejecuta el siguiente comando:
 
-bash
-Copy code
+
+```
 npm install tailwindcss
+```
 Luego, para compilar los estilos de Tailwind CSS, ejecuta:
 
-bash
-Copy code
+```
 npx tailwindcss build estilos.css -o output.css
+```
 Licencia
 Este proyecto se publica bajo la licencia MIT.
 
