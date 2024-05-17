@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Evaluación</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <h1>Formulario de Evaluación</h1>
+
+    <form action="#">
+        <div class="contenedor-campo">
+            <label for="nombre">Nombre del Alumno:</label>
+            <input type="text" id="nombre" name="nombre" required>
+        </div>
+
+        <div class="contenedor-campo">
+            <label for="ejercicios">Nota Ejercicios:</label>
+            <input type="number" id="ejercicios" name="ejercicios" min="0" max="10" required>
+        </div>
+
+        <div class="contenedor-campo">
+            <label for="teorico">Nota Examen Teórico:</label>
+            <input type="number" id="teorico" name="teorico" min="0" max="10" required>
+        </div>
+
+        <div class="contenedor-campo">
+            <label for="practico">Nota Examen Práctico:</label>
+            <input type="number" id="practico" name="practico" min="0" max="10" required>
+        </div>
+
+        <div class="contenedor-campo">
+            <label for="proyecto">Nota Proyecto:</label>
+            <input type="number" id="proyecto" name="proyecto" min="0" max="10" required>
+        </div>
+
+        <button type="submit">Enviar Calificaciones</button>
+    </form>
+</body>
+</html>
