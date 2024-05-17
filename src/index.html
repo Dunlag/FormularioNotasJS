@@ -6,42 +6,49 @@
     <title>Formulario de Evaluación</title>
     <link href="./output.css" rel="stylesheet">
 </head>
-<body>
+<body class="bg-white text-black transition-colors duration-300 dark:bg-slate-900">
     <div class="container mx-auto p-4">
-        <h1 class="text-2xl font-bold text-center">Formulario de Evaluación</h1>
+        <div class="flex justify-end mb-4">
+            <button id="theme-toggle" class="bg-gray-200 text-black font-medium py-2 px-4 rounded-md hover:bg-gray-300 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700">
+                Modo Oscuro
+            </button>
+        </div>
+        <h1 class="text-2xl font-bold text-center dark:text-white">Formulario de Evaluación</h1>
 
         <div class="bg-slate-400 p-2 rounded-md mx-auto font-semibold min w-4/6 sm:w-2/5 lg:w-1/3">
             <form class="flex flex-col justify-self-center items-center">
                 <div class="flex flex-col justify-start text-start">
-                <div class="mb-4">
-                    <label for="nombre" class="block mb-2 text-sm font-medium">Nombre del Alumno:</label>
-                    <input type="text" id="nombre" name="nombre" class="w-full p-2 border border-gray-300 rounded-md focus:outline-none focus:ring-blue-500 focus:ring-2" required>
-                </div>
+                    <div class="mb-4">
+                        <label for="nombre" class="block mb-2 text-sm font-medium">Nombre del Alumno:</label>
+                        <input type="text" id="nombre" name="nombre" class="w-full p-2 border border-gray-300 rounded-md focus:outline-none focus:ring-blue-500 focus:ring-2 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white" required>
+                    </div>
 
-                <div class="mb-4">
-                    <label for="ejercicios" class="block mb-2 text-sm font-medium">Nota Ejercicios:</label>
-                    <input type="number" id="ejercicios" name="ejercicios" min="0" max="10" class="w-full p-2 border border-gray-300 rounded-md focus:outline-none focus:ring-blue-500 focus:ring-2" required>
-                </div>
+                    <div class="mb-4">
+                        <label for="ejercicios" class="block mb-2 text-sm font-medium">Nota Ejercicios:</label>
+                        <input type="number" id="ejercicios" name="ejercicios" min="0" max="10" class="w-full p-2 border border-gray-300 rounded-md focus:outline-none focus:ring-blue-500 focus:ring-2 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white" required>
+                    </div>
 
-                <div class="mb-4">
-                    <label for="teorico" class="block mb-2 text-sm font-medium">Nota Examen Teórico:</label>
-                    <input type="number" id="teorico" name="teorico" min="0" max="10" class="w-full p-2 border border-gray-300 rounded-md focus:outline-none focus:ring-blue-500 focus:ring-2" required>
-                </div>
+                    <div class="mb-4">
+                        <label for="teorico" class="block mb-2 text-sm font-medium">Nota Examen Teórico:</label>
+                        <input type="number" id="teorico" name="teorico" min="0" max="10" class="w-full p-2 border border-gray-300 rounded-md focus:outline-none focus:ring-blue-500 focus:ring-2 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white" required>
+                    </div>
 
-                <div class="mb-4">
-                    <label for="practico" class="block mb-2 text-sm font-medium">Nota Examen Práctico:</label>
-                    <input type="number" id="practico" name="practico" min="0" max="10" class="w-full p-2 border border-gray-300 rounded-md focus:outline-none focus:ring-blue-500 focus:ring-2" required>
-                </div>
+                    <div class="mb-4">
+                        <label for="practico" class="block mb-2 text-sm font-medium">Nota Examen Práctico:</label>
+                        <input type="number" id="practico" name="practico" min="0" max="10" class="w-full p-2 border border-gray-300 rounded-md focus:outline-none focus:ring-blue-500 focus:ring-2 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white" required>
+                    </div>
 
-                <div class="mb-4">
-                    <label for="proyecto" class="block mb-2 text-sm font-medium">Nota Proyecto:</label>
-                    <input type="number" id="proyecto" name="proyecto" min="0" max="10" class="w-full p-2 border border-gray-300 rounded-md focus:outline-none focus:ring-blue-500 focus:ring-2" required>
-                </div>
+                    <div class="mb-4">
+                        <label for="proyecto" class="block mb-2 text-sm font-medium">Nota Proyecto:</label>
+                        <input type="number" id="proyecto" name="proyecto" min="0" max="10" class="w-full p-2 border border-gray-300 rounded-md focus:outline-none focus:ring-blue-500 focus:ring-2 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white" required>
+                    </div>
 
-                <button type="submit" class="bg-blue-500 text-white font-medium py-2 px-4 rounded-md hover:bg-blue-600">Enviar Calificaciones</button>
-            </div>
+                    <button type="submit" class="bg-blue-500 text-white font-medium py-2 px-4 rounded-md hover:bg-blue-600 dark:bg-blue-700 dark:hover:bg-blue-800">Enviar Calificaciones</button>
+                </div>
             </form>
         </div>
     </div>
+
+    <script src="./theme-toggle.js"></script>
 </body>
 </html>
