@@ -26,6 +26,7 @@ Puedes personalizar el formulario y los estilos CSS según tus necesidades. Con 
 ## Tecnologías Utilizadas
 
 - HTML5
+- Node.js
 - Tailwind CSS
 - JavaScript
 
