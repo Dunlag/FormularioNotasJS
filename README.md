@@ -1,14 +1,23 @@
+Claro, aquí tienes el contenido actualizado para tu archivo README con las modificaciones solicitadas:
+
 # Proyecto de Evaluación de Alumnos
 
 ## Descripción del Proyecto
 
 Este proyecto consiste en un formulario HTML con estilos CSS para la evaluación de alumnos. El formulario incluye campos para el nombre del alumno, las notas de ejercicios, examen teórico, examen práctico y proyecto. Los estilos CSS se han migrado a Tailwind CSS para mejorar la organización del código y la eficiencia en el diseño. Además, se ha implementado un modo oscuro manual para mejorar la experiencia del usuario.
 
+## Publicación
+
+Este proyecto está publicado y accesible en Vercel. Puedes verlo en funcionamiento en el siguiente enlace:
+
+[Formulario de Evaluación de Alumnos](https://formulario-notas-js.vercel.app/)
+
 ## Estructura del Proyecto
 
 - **index.html**: El archivo HTML principal que contiene el formulario y los enlaces a los estilos CSS.
 - **tailwind.config.js**: Archivo de configuración de Tailwind CSS.
-- **estilos.css**: El archivo CSS que contiene los estilos personalizados adicionales para el formulario y el modo oscuro manual.
+- **input.css**: El archivo CSS de entrada que contiene las clases de Tailwind CSS.
+- **output.css**: El archivo CSS de salida generado tras compilar las clases de Tailwind CSS.
 
 ## Instrucciones de Uso
 
@@ -37,18 +46,21 @@ Este proyecto utiliza Tailwind CSS. Para instalar las dependencias necesarias, e
 ```bash
 npm install tailwindcss
 ```
+
 Luego, para compilar los estilos de Tailwind CSS, ejecuta:
 
 ```bash
 npx tailwindcss build input.css -o output.css
 ```
-Licencia
+
+## Licencia
+
 Este proyecto se publica bajo la licencia MIT.
 
-Contribuciones
+## Contribuciones
+
 Si deseas contribuir al proyecto, puedes hacerlo creando issues o pull requests en el repositorio de GitHub.
 
-Agradecimientos
-A todos los que han contribuido a este proyecto.
+## Agradecimientos
 
-https://formulario-notas-js.vercel.app/
+A todos los que han contribuido a este proyecto.
