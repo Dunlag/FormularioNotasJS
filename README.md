@@ -1,5 +1,3 @@
-Claro, aquí tienes el contenido actualizado para tu archivo README con las modificaciones solicitadas:
-
 # Proyecto de Evaluación de Alumnos
 
 ## Descripción del Proyecto
